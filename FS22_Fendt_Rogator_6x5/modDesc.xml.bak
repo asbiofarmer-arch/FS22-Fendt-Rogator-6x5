@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<modDesc descVersion="42">
+    <author>Matt_B</author>
+    <version>1.6</version>
+    <title>
+        <en>Fendt RoGator 6x5</en>
+        <de>Fendt RoGator 6x5</de>
+		<fr>Fendt RoGator 6x5</fr>
+    </title>
+    <description>
+        <en><![CDATA[Fendt RoGator 6x5
+        Engine power - 224 - 305HP
+        Fuel Tank - 320 l
+        Transport speed - 40 - 50 km/h
+        Tank volume - 3850 - 6000 l
+        Work width - 36 m]]></en>
+        <de><![CDATA[Fendt Rogator 6x5
+Motorleistung - 224 - 305 PS
+Kraftstofftank - 320 l
+Transportgeschwindigkeit - 40 - 50 km / h
+Tankvolumen - 3850 - 6000 l
+Arbeitsbreite - 36 m]]></de>
+        <fr><![CDATA[Fendt RoGator 6x5
+Puissance du moteur - 224 - 305 HP
+Reservoir de carburant - 320 l
+Vitesse de transport - 40 - 50 km / h
+Volume du reservoir - 3850 - 6000 l
+Largeur de travail - 36 m]]></fr>
+    </description>
+    <iconFilename>store_rogator.png</iconFilename>
+	<multiplayer supported="true"/>
+	
+	<vehicleTypes>
+		<type name="rogator" parent="selfPropelledSprayer" filename="$dataS/scripts/vehicles/Vehicle.lua" >
+		</type>
+	</vehicleTypes>
+	
+	<l10n>
+		<text name="input_IC_SPACE">            <en>Switch IC State</en>        <de>IC-Status wechseln</de>     </text>
+        <text name="input_IC_MOUSE">            <en>Change IC State</en>        <de>IC aktivieren</de>          </text>
+        <text name="InteractiveControl_Off">    <en>Disable IC</en>             <de>IC deaktivieren</de>        </text>
+        <text name="InteractiveControl_On">     <en>Enable IC</en>              <de>IC aktivieren</de>          </text>
+        <text name="ic_component_close">        <en>Close %s</en>               <de>Schließen %s</de>           </text>
+        <text name="ic_component_open">         <en>Open %s</en>                <de>Öffnen %s</de>              </text>
+		<text name="configuration_honk">        <en>Honk</en>                   <de>Hupe</de>                   </text>
+        <text name="configuration_fendtHorn">   <en>Fendt air horn</en>         <de>Fendt Druck Horn</de>       </text>
+        <text name="configuration_musicHorn">   <en>music horn</en>             <de>muziek Horn</de>            </text>
+		<text name="deur">               		<en>door</en>               	<de>Tür</de>                    </text>
+        <text name="seat">               		<en>Passenger seat</en>         <de>Beifahrersitz</de>          </text>
+		<text name="computer">               	<en>Computer</en>               <de>Computer</de>               </text>
+        <text name="ic_computer_mode1">         <en>%s Mode 1</en>              <de>%s Modus 1</de>             </text>
+        <text name="ic_computer_mode2">         <en>%s Mode 2</en>              <de>%s Modus 2</de>             </text>
+        <text name="steeringModeBackWheel">     <en>Back Wheel Steer</en>       <de>Hinterradlenkung</de>       </text>
+		<text name="input_SHOW_SSC_HUD">		<en>SSC: HUD on/off</en>		<de>SSC: HUD ein/aus</de>		</text>
+        <text name="input_SHOW_SSC_MOUSE">		<en>SSC: Mouse cursor</en>		<de>SSC: Mauszeiger</de>		</text>
+        <text name="input_SSC_MOUSECLICK">		<en>SSC: Mouse click</en>		<de>SSC: Maus Klick</de>		</text>
+        <text name="SSC_AUTOMATIC_MODE">		<en>AUTOMATIC MODE</en>			<de>AUTOMATIK-MODUS</de>		</text>
+        <text name="SSC_MANUAL_MODE">			<en>MANUAL MODE</en>			<de>MANUELLER MODUS</de>		</text>
+	</l10n>
+	
+	<brands>
+		<brand name="DUALS" title="DUALS" image="brand_fendt.dds"/>
+	</brands>
+	
+    <storeItems>
+        <storeItem xmlFilename="rogator.xml" rootNode="vehicle"/>
+    </storeItems>
+</modDesc>
