@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <modDesc descVersion="79">
 	<author>Matt_B</author>
 	<version>1.6</version>
@@ -38,30 +38,30 @@
 	</vehicleTypes>
 	
 	<l10n>
-		<text name="input_IC_SPACE"><en>Switch IC State</en><de>IC-Status wechseln</de></text>
-		<text name="input_IC_MOUSE"><en>Change IC State</en><de>IC aktivieren</de></text>
-		<text name="InteractiveControl_Off"><en>Disable IC</en><de>IC deaktivieren</de></text>
-		<text name="InteractiveControl_On"><en>Enable IC</en><de>IC aktivieren</de></text>
-		<text name="ic_component_close"><en>Close %s</en><de>Schließen %s</de></text>
-		<text name="ic_component_open"><en>Open %s</en><de>Öffnen %s</de></text>
-		<text name="configuration_honk"><en>Honk</en><de>Hupe</de></text>
-		<text name="configuration_fendtHorn"><en>Fendt air horn</en><de>Fendt Druck Horn</de></text>
-		<text name="configuration_musicHorn"><en>music horn</en><de>muziek Horn</de></text>
-		<text name="deur"><en>door</en><de>Tür</de></text>
-		<text name="seat"><en>Passenger seat</en><de>Beifahrersitz</de></text>
-		<text name="computer"><en>Computer</en><de>Computer</de></text>
-		<text name="ic_computer_mode1"><en>%s Mode 1</en><de>%s Modus 1</de></text>
-		<text name="ic_computer_mode2"><en>%s Mode 2</en><de>%s Modus 2</de></text>
-		<text name="steeringModeBackWheel"><en>Back Wheel Steer</en><de>Hinterradlenkung</de></text>
-		<text name="input_SHOW_SSC_HUD"><en>SSC: HUD on/off</en><de>SSC: HUD ein/aus</de></text>
-		<text name="input_SHOW_SSC_MOUSE"><en>SSC: Mouse cursor</en><de>SSC: Mauszeiger</de></text>
-		<text name="input_SSC_MOUSECLICK"><en>SSC: Mouse click</en><de>SSC: Maus Klick</de></text>
-		<text name="SSC_AUTOMATIC_MODE"><en>AUTOMATIC MODE</en><de>AUTOMATIK-MODUS</de></text>
-		<text name="SSC_MANUAL_MODE"><en>MANUAL MODE</en><de>MANUELLER MODUS</de></text>
+		<text name="input_IC_SPACE"><en>Switch IC State</en><de>IC-Status wechseln</de><fr>Changer l'état IC</fr></text>
+		<text name="input_IC_MOUSE"><en>Change IC State</en><de>IC aktivieren</de><fr>Modifier l'état IC</fr></text>
+		<text name="InteractiveControl_Off"><en>Disable IC</en><de>IC deaktivieren</de><fr>Désactiver IC</fr></text>
+		<text name="InteractiveControl_On"><en>Enable IC</en><de>IC aktivieren</de><fr>Activer IC</fr></text>
+		<text name="ic_component_close"><en>Close %s</en><de>Schließen %s</de><fr>Fermer %s</fr></text>
+		<text name="ic_component_open"><en>Open %s</en><de>Öffnen %s</de><fr>Ouvrir %s</fr></text>
+		<text name="configuration_honk"><en>Honk</en><de>Hupe</de><fr>Klaxon</fr></text>
+		<text name="configuration_fendtHorn"><en>Fendt air horn</en><de>Fendt Druck Horn</de><fr>Corne air Fendt</fr></text>
+		<text name="configuration_musicHorn"><en>music horn</en><de>Musik Horn</de><fr>Corne de musique</fr></text>
+		<text name="deur"><en>door</en><de>Tür</de><fr>Porte</fr></text>
+		<text name="seat"><en>Passenger seat</en><de>Beifahrersitz</de><fr>Siège passager</fr></text>
+		<text name="computer"><en>Computer</en><de>Computer</de><fr>Ordinateur</fr></text>
+		<text name="ic_computer_mode1"><en>%s Mode 1</en><de>%s Modus 1</de><fr>%s Mode 1</fr></text>
+		<text name="ic_computer_mode2"><en>%s Mode 2</en><de>%s Modus 2</de><fr>%s Mode 2</fr></text>
+		<text name="steeringModeBackWheel"><en>Back Wheel Steer</en><de>Hinterradlenkung</de><fr>Direction roues arrière</fr></text>
+		<text name="input_SHOW_SSC_HUD"><en>SSC: HUD on/off</en><de>SSC: HUD ein/aus</de><fr>SSC: HUD marche/arrêt</fr></text>
+		<text name="input_SHOW_SSC_MOUSE"><en>SSC: Mouse cursor</en><de>SSC: Mauszeiger</de><fr>SSC: Curseur souris</fr></text>
+		<text name="input_SSC_MOUSECLICK"><en>SSC: Mouse click</en><de>SSC: Maus Klick</de><fr>SSC: Clic souris</fr></text>
+		<text name="SSC_AUTOMATIC_MODE"><en>AUTOMATIC MODE</en><de>AUTOMATIK-MODUS</de><fr>MODE AUTOMATIQUE</fr></text>
+		<text name="SSC_MANUAL_MODE"><en>MANUAL MODE</en><de>MANUELLER MODUS</de><fr>MODE MANUEL</fr></text>
 	</l10n>
 	
 	<brands>
-		<brand name="DUALS" title="DUALS" image="brand_fendt.dds"/>
+		<brand name="FENDT" title="FENDT" image="brand_fendt.dds"/>
 	</brands>
 	
 	<storeItems>
